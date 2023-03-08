@@ -19,7 +19,7 @@ export default [
     },
     {
         title: 'Minimal Portfolio',
-        imgUrl: '',
+        imgUrl: './assets/portfolio.png',
         stack: ['React','Tailwind','Vite'],
         link:''
     }
