@@ -4,10 +4,12 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Portfolio from './components/Portfolio'
 import Timeline from './components/Timeline'
+import PortfolioItemLarge from './components/PortfolioItemLarge'
 
 
 function App() {
   const [theme, setTheme] = useState(null);
+  const [displaylargeHome, setDisplaylargeHome] = useState(false);
 
   // for setting initial theme based on PC settings
   useEffect( () => {
@@ -78,7 +80,7 @@ function App() {
         {theme === 'dark' ? sun : moon}
       </button>
 
-      <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+      <div  className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
         <div className='max-w-5xl w-11/12 mx-auto'>
           <Intro />
           <Portfolio />

@@ -2,3 +2,143 @@
     transform: scale(1.05);
     transition: all .2s ease-in-out;
 }
+
+.quick-facts{
+    overflow: hidden;
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 45px;
+}
+
+.tools{
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.live-demo {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.github {
+    word-wrap: break-word;
+    width: 65%;
+    min-width: 200px;
+    grid-row-start: 1;
+    grid-row-end:2;
+    grid-column-start:2;
+    grid-column-end:3;
+}
+
+.description {
+    width: 90%;
+    word-wrap: break-word;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.portfolio-title{
+    font-weight: 400;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    font-size: 4em;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.portfolio-img{
+    width: 475px;
+    height: 250px;
+    margin-top:5px;
+    grid-row-start:1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-radius: 2%;
+}
+.CardContainer {
+    background: #171717;
+    color: white;
+    width: 1024px;
+    position: absolute;
+    top: 330px;
+    pointer-events: none;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr .8fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    min-height: 650px;
+    max-height: 750px;
+}
+
+.CardContainer h2{
+    text-align: left;
+    font-size: 2.2em;
+    padding: 0;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+ 
+.CardContainer hr {
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 0;
+    opacity: 1;
+    height: 4px;
+}
+
+.CardContainer p {
+    text-align: left;
+    font-size: 1.1em;
+    color: white;
+}
+
+.quick-facts p {
+    width: 90%;
+    overflow: hidden;
+}
+
+.CardContainer h1{
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+.description h1 {
+    line-height: 1;
+    text-align: left;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 2.5em !important;
+    padding-bottom:0;
+}
+
+.description hr { 
+    width: 500px !important;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.deadLink {
+    cursor: default;
+    pointer-events: none;
+}
+
