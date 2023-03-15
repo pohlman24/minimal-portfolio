@@ -21,7 +21,7 @@ export default [
         stack: ['Python', 'Web Scrapping', 'Discord API'],
         githubLink: 'https://www.github.com/pohlman24/DnDBot',
         liveLink: 'NA',
-        description: 'This is a Dungeons & Dragons Discord bot that has multiple features to improve accessibility for online D&D. Some features include: spell look up, initative tracking, character information and simulating dice rolls. I made this in response to the Covid-19 pandemic and my group was forced to transition online'
+        description: 'This is a Dungeons & Dragons Discord bot that has multiple features to improve accessibility for online D&D. Some features include: spell look up, initative tracking, character information and simulating dice rolls. I made this in response to the Covid-19 pandemic when my group transitioned to online'
     },
     {
         title: 'Minimal Portfolio',
