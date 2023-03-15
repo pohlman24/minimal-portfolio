@@ -44,7 +44,7 @@ function Footer(){
 								</svg>
 							</a>
 							<a 
-								href=".\Reece_Pohlman_Resume.pdf"
+								href="Reece_Pohlman_Resume.pdf"
                                 target="_blank"
 								className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
 								<svg 
